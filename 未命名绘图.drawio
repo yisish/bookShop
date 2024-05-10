@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T01:37:43.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.9" etag="WUao9bOCQMv2cLxbVcRO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T01:45:37.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yISwIuNb_XpY664mUp2v" version="24.2.9" type="github">
   <diagram name="第 1 页" id="vHzkgMf0wJ4ms2OyE3ko">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="suGTHNGtJHfqIybDbFEz-1" value="&lt;div&gt;qos-defbearer&lt;/div&gt;&lt;div&gt;模载服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-2" value="&lt;div&gt;qos_dedbearer&lt;br&gt;&lt;/div&gt;&lt;div&gt;转载服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-3" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-6" value="RDS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-7" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="570" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-8" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;快照服务&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="suGTHNGtJHfqIybDbFEz-9" value="&lt;div&gt;南向接口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
